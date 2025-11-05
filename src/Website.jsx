@@ -290,9 +290,9 @@ export default function Website() {
             <div className="mt-3 flex items-center gap-3"><Mail size={18} style={{ color: colors.gold }} /><a href="mailto:info@traderseden.com" className="text-sm hover:underline">info@traderseden.com</a></div>
             <div className="mt-3 flex items-center gap-3"><Phone size={18} style={{ color: colors.gold }} /><a href="tel:+91XXXXXXXXXX" className="text-sm hover:underline">+91‑XXXXXXXXXX</a></div>
             <div className="mt-5 flex items-center gap-4">
-              <a aria-label="LinkedIn" href="#"><Linkedin/></a>
-              <a aria-label="Instagram" href="#"><Instagram/></a>
-              <a aria-label="YouTube" href="#"><Youtube/></a>
+              <a aria-label="LinkedIn" href="/home"><Linkedin/></a>
+              <a aria-label="Instagram" href="https://www.instagram.com"><Instagram/></a>
+              <a aria-label="YouTube" href="https://www.youtube.com"><Youtube/></a>
             </div>
           </Card>
           <div className="lg:col-span-2">
@@ -327,7 +327,7 @@ export default function Website() {
             <a href="#contact" className="hover:opacity-80">Contact</a>
           </div>
           <div className="text-xs md:text-right" style={{ color: colors.muted }}>
-            <a href="#" className="hover:underline">Privacy Policy</a> · <a href="#" className="hover:underline">Terms & Conditions</a>
+            <a href="/privacy-policy" className="hover:underline">Privacy Policy</a> · <a href="/terms" className="hover:underline">Terms & Conditions</a>
           </div>
         </div>
       </footer>
